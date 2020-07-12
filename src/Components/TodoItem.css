@@ -1,0 +1,14 @@
+.TodoItem {
+    padding: 20px;
+    display: flex;
+}
+
+p {
+    font-size: 30px;
+    margin: 0 0 0 20px;
+}
+
+.complete > p {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
